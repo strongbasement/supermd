@@ -15,3 +15,21 @@ payload to send template
   }
 }
 ```
+
+after reply you can send normal messages to the customer
+
+``` js
+{
+    "messaging_product": "whatsapp",    
+    "recipient_type": "individual",
+    "to": "919345194790",
+    "type": "text",
+    "text": {
+        "preview_url": false,
+        "body": "how are you"
+    }
+}
+
+
+
+```
