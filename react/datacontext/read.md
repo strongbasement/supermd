@@ -23,3 +23,14 @@ export default Datacontext;
 ```
 
 
+# usecontext
+
+
+``` js
+
+
+import {useContext } from 'react';
+import {Datacontext} from 'react';
+
+
+```
